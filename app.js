@@ -49,7 +49,7 @@ const {
 
 const app = express();
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://hatradingcorporation.netlify.app",
   optionsSuccessStatus: 200,
   Credential: true,
 };
