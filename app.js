@@ -49,7 +49,7 @@ const {
 
 const app = express();
 const corsOptions = {
-  origin: "https://hatradingcorporation.netlify.app",
+  origin: "*",
   optionsSuccessStatus: 200,
   Credential: true,
 };
